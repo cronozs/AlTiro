@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ObstaclePooling : MonoBehaviour
 {
+    [Tooltip("prefab del obstaculo a spawnear")]
     public GameObject obstacle;
+    [Tooltip("Lista total de obstaculos creados")]
     public List<GameObject> createdObjects;
     void Start()
     {

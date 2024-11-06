@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ObstacleSpowner : MonoBehaviour
 {
+    [Tooltip("Referencia al obstaclepooling dentro de la escena")]
     [SerializeField] private ObstaclePooling obstaclePolling;
+    [Tooltip("rango de tiempo en el cual se pueden crear obstaculos nuevos")]
     [SerializeField] private float[] spownIntervalRange;
+    [Tooltip("Rango en el que se pueden crear los obstaculos")]
     [SerializeField] private Vector3[] SpawnRange;
     // Start is called before the first frame update
     void Start()
