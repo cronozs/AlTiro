@@ -5,18 +5,21 @@ using UnityEngine;
 public class PuntoDisparo : MonoBehaviour
 {
     public Transform EmptySpawn;
-    public GameObject PrefabBotella;
+    public GameObject PrefabArma;
     public float bulletSpeed = 10f;
-    private float timeBetweenPresses = 2f;
+    public float timeBetweenPresses = 2f;
     private float timeSinceLastPress = 0f;
+    public string keyCodeString;
 
-    private void Update()
+    void Update()
     {
         timeSinceLastPress += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.W) && timeSinceLastPress >= timeBetweenPresses)
+        KeyCode keyCode = (KeyCode)System.Enum.Parse(typeof(KeyCode), keyCodeString);
+
+        if (Input.GetKeyDown(keyCode) && timeSinceLastPress >= timeBetweenPresses)
         {
-            var bullet = Instantiate(PrefabBotella, EmptySpawn.position, EmptySpawn.rotation);
+            var bullet = Instantiate(PrefabArma, EmptySpawn.position, EmptySpawn.rotation);
             bullet.GetComponent<Rigidbody>().velocity = EmptySpawn.forward * bulletSpeed;
 
             timeSinceLastPress = 0f;
