@@ -1248,6 +1248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  NombreInput: Horizontal
 --- !u!65 &1022356064
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1592,8 +1593,8 @@ GameObject:
   - component: {fileID: 1173380287}
   - component: {fileID: 1173380286}
   - component: {fileID: 1173380285}
-  - component: {fileID: 1173380289}
   - component: {fileID: 1173380290}
+  - component: {fileID: 1173380296}
   - component: {fileID: 1173380291}
   - component: {fileID: 1173380295}
   - component: {fileID: 1173380294}
@@ -1695,19 +1696,6 @@ Transform:
   - {fileID: 117149014}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1173380289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1173380284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbf7adfb723f96643a7b668462248e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
 --- !u!143 &1173380290
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1808,6 +1796,20 @@ MonoBehaviour:
   EmptySpawn: {fileID: 1403430569}
   PrefabBotella: {fileID: 8265761932014104649, guid: 68b150197069de44497f52d236684df1, type: 3}
   bulletSpeed: 10
+--- !u!114 &1173380296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173380284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce75dbe9ee3e3b47ae3421c0768737a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  NombreInput: HorizontalKey
 --- !u!1 &1223142336
 GameObject:
   m_ObjectHideFlags: 0
