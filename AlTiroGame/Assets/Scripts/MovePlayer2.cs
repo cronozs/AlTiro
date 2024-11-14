@@ -21,7 +21,7 @@ public class MovePlayer2 : MonoBehaviour
     {
         float horizontalk = Input.GetAxisRaw("HorizontalKey");
 
-        Vector3 moveChar = new Vector3(0, 0, -horizontalk);
+        Vector3 moveChar = new Vector3(0, 0, horizontalk);
         characterController.Move(moveChar * speed * Time.deltaTime);
 
         //transform.position = new Vector3(currentposition, 2, deb += -horizontalk * speed * Time.deltaTime);
