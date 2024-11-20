@@ -10,6 +10,7 @@ public class MovePlayer : MonoBehaviour
     CharacterController CC;
     public float speed = 50f;
     public string NombreInput;
+    public GameObject Bullet;
 
     void Start()
     {

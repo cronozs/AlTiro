@@ -3,7 +3,12 @@ guid: 94fa221dc85a18647868aebe75724e17
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flips_shd
+    second: {fileID: 2100000, guid: 92467bea358c1f9478bd0f0f63171748, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

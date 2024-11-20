@@ -23,7 +23,7 @@ public class ObstaclePooling : MonoBehaviour
                 return createdObjects[indexObjects];
             }
         }
-        GameObject createdObject = Instantiate(obstacle, posToSpawn, Quaternion.identity);
+        GameObject createdObject = Instantiate(obstacle, posToSpawn, obstacle.transform.rotation);
         createdObjects.Add(createdObject);
         return createdObject;
     }

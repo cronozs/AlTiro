@@ -6,6 +6,6 @@ public class DestroyArmas : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        Destroy(gameObject);
     }
 }
