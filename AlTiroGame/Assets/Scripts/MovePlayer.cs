@@ -7,34 +7,20 @@ using UnityEngine.UIElements;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float speed = 5.0f;
-    float currentposition;
-    float deb;
-    CharacterController characterController;
+    CharacterController CC;
+    public float speed = 50f;
+    public string NombreInput;
 
-    // Start is called before the first frame update
     void Start()
     {
-        currentposition = GetComponent<Transform>().position.x;
-        characterController = GetComponent<CharacterController>();
+        CC = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-
-        float horizontal = Input.GetAxisRaw("Horizontal");
+        float horizontal = Input.GetAxisRaw(NombreInput);
 
         Vector3 moveChar = new Vector3(0, 0, -horizontal);
-        characterController.Move(moveChar * speed * Time.deltaTime);
-
-        //transform.position = new Vector3(currentposition, 2, deb += -horizontal * speed * Time.deltaTime);
-
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            deb += -horizontal * speed * Time.deltaTime;
-            Debug.Log(deb);
-        }
-
+        CC.Move(moveChar * speed * Time.deltaTime);
     }
 }
