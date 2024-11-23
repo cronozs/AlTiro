@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:AlTiroGame/Assets/Ches/AssetStoreMaterial/Phoenix3D/Textures/Outdoor_Wall_T16/Materials/Outdoor_Wall_T16_Ambient_occlusion.mat.meta
 guid: c859cce1c362f874ea3189dd04761d88
 NativeFormatImporter:
+========
+guid: e243346a922c8dc459f7ab7ac9a68486
+DefaultImporter:
+>>>>>>>> a16bc6347007e94e1134e288f488904370a6bd23:AlTiroGame/Assets/Armas/Dentadura/source/Six Dentures/Single Files of all Models/GLB/Human Denture - Normal Teeth.glb.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

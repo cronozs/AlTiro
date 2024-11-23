@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:AlTiroGame/Assets/Ches/AssetStoreMaterial/Phoenix3D/Textures/Outdoor_Wall_T13/Materials/Outdoor_Wall_T13_Ambient_occlusion.mat.meta
 guid: cb56be14355e9de40b603fe7485efb0b
 NativeFormatImporter:
+========
+guid: 810826fe53870f746a9161f953d96f39
+DefaultImporter:
+>>>>>>>> a16bc6347007e94e1134e288f488904370a6bd23:AlTiroGame/Assets/Personajes/Abuela/source/Womann/Womann/Womann.mtl.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 
