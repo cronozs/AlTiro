@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Pantallas/Menu_Inicial.unity
+    guid: 03cf035df12872a4ea787c8bcbe7e132
+  - enabled: 1
+    path: Assets/Ches/Scenes/LevelScene.unity
+    guid: 6f8e371a576b3e446804e045afed9aa3
+  - enabled: 1
+    path: Assets/Pantallas/Menu_Final.unity
+    guid: 8cf9ef39b24623d4cb71bb681f39543d
   m_configObjects: {}

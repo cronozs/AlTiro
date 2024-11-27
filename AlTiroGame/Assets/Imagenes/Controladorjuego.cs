@@ -61,7 +61,7 @@ public class ControladorJuego : MonoBehaviour
     private void CargarEscenaFinal()
     {
         Debug.Log("Derrota: cargando escena Final");
-        SceneManager.LoadScene("Final"); // Cargar la escena llamada "Final"
+        SceneManager.LoadScene("Menu_Final"); // Cargar la escena llamada "Final"
     }
 }
 
