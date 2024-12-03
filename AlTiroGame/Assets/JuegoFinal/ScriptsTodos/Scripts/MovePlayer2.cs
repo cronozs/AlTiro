@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovePlayer2 : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed;
     private string horizontalAxis;
 
     public void SetControls(string player)

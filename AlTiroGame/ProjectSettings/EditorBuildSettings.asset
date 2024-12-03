@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JuegoFinal/Scenes/Menu_Inicial.unity
     guid: 03cf035df12872a4ea787c8bcbe7e132
-  - enabled: 1
+  - enabled: 0
     path: Assets/JuegoFinal/Scenes/LevelScene.unity
     guid: 6f8e371a576b3e446804e045afed9aa3
+  - enabled: 1
+    path: Assets/JuegoFinal/Scenes/Selector_Personajes.unity
+    guid: 96b2648e792307d48934250af3c20f7a
+  - enabled: 1
+    path: Assets/JuegoFinal/Scenes/Juego.unity
+    guid: 92ce051d5a700804fbe1f98e57d605f2
   - enabled: 1
     path: Assets/JuegoFinal/Scenes/Menu_Final.unity
     guid: 8cf9ef39b24623d4cb71bb681f39543d
