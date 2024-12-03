@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class MovePlayer2 : MonoBehaviour
 {
-    public float speed = 5.0f;
-    float currentposition;
-    float deb;
-    CharacterController characterController;
+    public float speed = 5f;
+    private string horizontalAxis;
 
-    // Start is called before the first frame update
-    void Start()
+    public void SetControls(string player)
     {
-        currentposition = GetComponent<Transform>().position.x;
-        characterController = GetComponent<CharacterController>();
+        if (player == "Player1")
+        {
+            horizontalAxis = "Horizontal";
+        }
+        else if (player == "Player2")
+        {
+            horizontalAxis = "HorizontalKey";
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        float horizontalk = Input.GetAxisRaw("HorizontalKey");
+        float moveX = Input.GetAxis(horizontalAxis) * speed * Time.deltaTime;
 
-        Vector3 moveChar = new Vector3(0, 0, horizontalk);
-        characterController.Move(moveChar * speed * Time.deltaTime);
-
-        //transform.position = new Vector3(currentposition, 2, deb += -horizontalk * speed * Time.deltaTime);
+        transform.Translate(new Vector3(moveX, 0, 0));
     }
 }
