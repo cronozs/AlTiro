@@ -6,6 +6,12 @@ public class MovePlayer2 : MonoBehaviour
 {
     public float speed;
     private string horizontalAxis;
+    private CharacterController CC;
+
+    void Start()
+    {
+        CC = GetComponent<CharacterController>();
+    }
 
     public void SetControls(string player)
     {
@@ -21,8 +27,7 @@ public class MovePlayer2 : MonoBehaviour
 
     void Update()
     {
-        float moveX = Input.GetAxis(horizontalAxis) * speed * Time.deltaTime;
-
-        transform.Translate(new Vector3(moveX, 0, 0));
+        Vector3 move = new Vector3(0f, 0f, Input.GetAxis(horizontalAxis));
+        CC.Move(move * speed * Time.deltaTime);
     }
 }
