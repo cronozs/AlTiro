@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 2406765206199458051}
   - component: {fileID: 6611192992491916551}
   - component: {fileID: 3146639634854933552}
+  - component: {fileID: 4280355540950237234}
   m_Layer: 0
   m_Name: Tio
   m_TagString: Untagged
@@ -247,13 +248,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 7.4
+  m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 4.68, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6611192992491916551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +286,19 @@ MonoBehaviour:
   timeBetweenPresses: 2
   canShoot: 1
   dir: 0
+--- !u!114 &4280355540950237234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3557882330859158532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7bdd4c5fbca4bb4fa6f0f7948a8ffdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxVida: 50
 --- !u!1 &3946645516361356446
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +573,7 @@ Transform:
   m_GameObject: {fileID: 8045004304598511666}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.12, z: 0.98}
+  m_LocalPosition: {x: 0, y: 6.12, z: 2.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

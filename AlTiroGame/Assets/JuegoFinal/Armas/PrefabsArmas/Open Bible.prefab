@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 3643572213507544274}
   - component: {fileID: 1027970445969847675}
   - component: {fileID: 2381157877530357198}
+  - component: {fileID: 248869773929891114}
   m_Layer: 0
   m_Name: Open Bible
   m_TagString: Untagged
@@ -519,6 +520,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 8
+--- !u!114 &248869773929891114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362152784855217100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f2001f7e2d8904f9d99e39ee6233a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7644431134646092681
 GameObject:
   m_ObjectHideFlags: 0

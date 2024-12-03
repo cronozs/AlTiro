@@ -258,10 +258,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6578280323605919855}
-  - component: {fileID: 9052800962348930008}
   - component: {fileID: 7035620243414101134}
   - component: {fileID: 3090895384104474606}
   - component: {fileID: 797889137387386332}
+  - component: {fileID: 4514625549497365572}
+  - component: {fileID: 4994786271476984627}
   m_Layer: 0
   m_Name: Abuela
   m_TagString: Untagged
@@ -290,32 +291,6 @@ Transform:
   - {fileID: 5973498096496186043}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &9052800962348930008
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3586466615612639647}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 178
-  m_Radius: 34.4
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 92, z: 0}
 --- !u!65 &7035620243414101134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -368,6 +343,45 @@ MonoBehaviour:
   timeBetweenPresses: 2
   canShoot: 1
   dir: 0
+--- !u!114 &4514625549497365572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586466615612639647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7bdd4c5fbca4bb4fa6f0f7948a8ffdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxVida: 50
+--- !u!143 &4994786271476984627
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586466615612639647}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4788973981000356970
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +573,7 @@ Transform:
   m_GameObject: {fileID: 6737529972535552011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 124.4, z: 26.3}
+  m_LocalPosition: {x: 0, y: 124.4, z: 60.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

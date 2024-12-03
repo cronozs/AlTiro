@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 3726423863188382161}
   - component: {fileID: 5396005075476542920}
   - component: {fileID: 994652059622608256}
+  - component: {fileID: 37023220268945775}
   m_Layer: 0
   m_Name: "Mam\xE1"
   m_TagString: Untagged
@@ -451,7 +452,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5396005075476542920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,6 +484,19 @@ MonoBehaviour:
   timeBetweenPresses: 1.5
   canShoot: 1
   dir: 0
+--- !u!114 &37023220268945775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97366296289709062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7bdd4c5fbca4bb4fa6f0f7948a8ffdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxVida: 50
 --- !u!1 &190231664914532371
 GameObject:
   m_ObjectHideFlags: 0
@@ -3969,7 +3983,7 @@ Transform:
   m_GameObject: {fileID: 8292092336370909782}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.228, z: 0.26}
+  m_LocalPosition: {x: 0, y: 1.228, z: 0.779}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -9,6 +9,10 @@ public class VidaCharacters : MonoBehaviour
     private int VidaActual;       // Vida actual del jugador.
     private Image BarraVida;      // Referencia a la barra de vida.
 
+    // Delegado y evento para notificar la muerte del jugador
+    public delegate void OnPlayerDeath();
+    public event OnPlayerDeath PlayerDied;
+
     void Start()
     {
         VidaActual = MaxVida;
@@ -53,6 +57,17 @@ public class VidaCharacters : MonoBehaviour
     {
         // Lógica para manejar la muerte del jugador.
         Debug.Log($"{gameObject.name} ha muerto.");
-        Destroy(gameObject); // Destruye el personaje (opcional, según tu juego).
+        // Dispara el evento de muerte
+        if (PlayerDied != null)
+        {
+            PlayerDied.Invoke(); // Notifica a los suscriptores (GameSceneManager) que el jugador ha muerto.
+        }
+
+        // Puedes destruir el personaje o detener su movimiento, dependiendo de lo que necesites.
+        // En este caso, simplemente desactivaremos el GameObject.
+        gameObject.SetActive(false);  // Desactiva el jugador en lugar de destruirlo.
+
+        // Si prefieres destruir el GameObject (puedes hacerlo si lo deseas):
+        // Destroy(gameObject);
     }
 }

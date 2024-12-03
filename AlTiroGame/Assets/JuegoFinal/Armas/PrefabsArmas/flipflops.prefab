@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 100442985214992078}
   - component: {fileID: 3021957323817173915}
   - component: {fileID: 7710941494451956463}
+  - component: {fileID: 6364406093536945171}
   m_Layer: 0
   m_Name: flipflops
   m_TagString: Untagged
@@ -96,6 +97,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 7
+--- !u!114 &6364406093536945171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2818525618612827475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f2001f7e2d8904f9d99e39ee6233a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3246307793936039696
 GameObject:
   m_ObjectHideFlags: 0

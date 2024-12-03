@@ -3290,7 +3290,7 @@ Transform:
   m_GameObject: {fileID: 7517862262212719910}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.33, z: 0.358}
+  m_LocalPosition: {x: -0, y: 1.33, z: 0.795}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3369,9 +3369,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4056834955967620417}
   - component: {fileID: 4718787925945313212}
-  - component: {fileID: 5648336088311493471}
   - component: {fileID: 2742265336224516657}
   - component: {fileID: 1682920366210024635}
+  - component: {fileID: 2216731179507807915}
+  - component: {fileID: 4660205613266351006}
   m_Layer: 0
   m_Name: Abuelo
   m_TagString: Untagged
@@ -3418,32 +3419,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.69475955, y: 2, z: 0.65718335}
   m_Center: {x: -0.03577113, y: 1, z: 0.049523674}
---- !u!143 &5648336088311493471
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7704181127025401232}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &2742265336224516657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3475,6 +3450,45 @@ MonoBehaviour:
   timeBetweenPresses: 1.6
   canShoot: 1
   dir: 0
+--- !u!114 &2216731179507807915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7704181127025401232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7bdd4c5fbca4bb4fa6f0f7948a8ffdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxVida: 50
+--- !u!143 &4660205613266351006
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7704181127025401232}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7757227435532591255
 GameObject:
   m_ObjectHideFlags: 0

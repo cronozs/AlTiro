@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4324604155861796456}
   - component: {fileID: 7153793380729541231}
   - component: {fileID: 8813793783994501851}
+  - component: {fileID: 4337905969932540241}
   m_Layer: 0
   m_Name: PregnancyTest
   m_TagString: Untagged
@@ -96,6 +97,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!114 &4337905969932540241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564542205811173166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f2001f7e2d8904f9d99e39ee6233a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1882387744263521064
 GameObject:
   m_ObjectHideFlags: 0

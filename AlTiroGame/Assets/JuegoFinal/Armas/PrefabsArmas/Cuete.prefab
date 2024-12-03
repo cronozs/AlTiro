@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6597426639634189003}
   - component: {fileID: 1306240672178137820}
   - component: {fileID: 6151806117088648547}
+  - component: {fileID: 1899277340303940154}
   m_Layer: 0
   m_Name: Cuete
   m_TagString: Untagged
@@ -147,3 +148,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 9
+--- !u!114 &1899277340303940154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024797414522412946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f2001f7e2d8904f9d99e39ee6233a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

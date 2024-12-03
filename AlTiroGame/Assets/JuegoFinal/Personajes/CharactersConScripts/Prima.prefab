@@ -1047,7 +1047,7 @@ Transform:
   m_GameObject: {fileID: 5201587030686484791}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.164, z: 0.222}
+  m_LocalPosition: {x: 0, y: 1.164, z: 0.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2036,6 +2036,7 @@ GameObject:
   - component: {fileID: 516229034890057421}
   - component: {fileID: 3883437059868745651}
   - component: {fileID: 5017069570964982226}
+  - component: {fileID: 8800468671690220491}
   m_Layer: 0
   m_Name: Prima
   m_TagString: Untagged
@@ -2120,7 +2121,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5017069570964982226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2139,6 +2140,19 @@ MonoBehaviour:
   timeBetweenPresses: 1
   canShoot: 1
   dir: 0
+--- !u!114 &8800468671690220491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8629183758333509806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7bdd4c5fbca4bb4fa6f0f7948a8ffdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxVida: 50
 --- !u!1 &8833811066678753299
 GameObject:
   m_ObjectHideFlags: 0
