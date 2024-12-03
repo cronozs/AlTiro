@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 350.3601, y: -158.15}
+  m_AnchoredPosition: {x: 350.3601, y: -183}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348548415
@@ -656,6 +656,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406615893}
   m_CullTransparentMesh: 1
+--- !u!1 &536715972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536715973}
+  - component: {fileID: 536715974}
+  - component: {fileID: 536715975}
+  m_Layer: 5
+  m_Name: ImagePlayer1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &536715973
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536715972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.502, y: 1.502, z: 1.502}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1365547601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 367, y: -33}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &536715974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536715972}
+  m_CullTransparentMesh: 1
+--- !u!114 &536715975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536715972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &567987744
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +1032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -387.54, y: -155.68}
+  m_AnchoredPosition: {x: -387.54, y: -192}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &889213358
@@ -1478,6 +1553,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1169398903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169398906}
+  - component: {fileID: 1169398905}
+  - component: {fileID: 1169398904}
+  m_Layer: 5
+  m_Name: ImagePlayer2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1169398904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169398903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1169398905
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169398903}
+  m_CullTransparentMesh: 1
+--- !u!224 &1169398906
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169398903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.502, y: 1.502, z: 1.502}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1365547601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -395, y: -33}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1251078903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,12 +2162,14 @@ RectTransform:
   - {fileID: 899701467}
   - {fileID: 871341541}
   - {fileID: 1437541574}
+  - {fileID: 536715973}
   - {fileID: 348548414}
   - {fileID: 1678256240}
   - {fileID: 406615894}
   - {fileID: 1983893668}
   - {fileID: 1251078904}
   - {fileID: 1292620493}
+  - {fileID: 1169398906}
   - {fileID: 889213357}
   - {fileID: 1683054732}
   - {fileID: 567987745}
@@ -2826,90 +2978,90 @@ MonoBehaviour:
   - characterName: "Pap\xE1"
     characterModel: {fileID: 2051826229467994462, guid: 4b38a6593eca7944086a4e0dfbde2d72, type: 3}
     weaponModel: {fileID: 3067624987049880221, guid: 67f80ac458226f44483bea6cac268f6b, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 7873242530831a040a0b8533c35eb314, type: 3}
   - characterName: "Mam\xE1"
     characterModel: {fileID: 97366296289709062, guid: b70e7f174eee804479d88e92f2778272, type: 3}
     weaponModel: {fileID: 2818525618612827475, guid: 1ae1553a199cb744f91f4147424897fe, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 5dfd6e1d3f55621409ef920ac1c8d967, type: 3}
   - characterName: Hijo
     characterModel: {fileID: 5564334016425058611, guid: c873c1344de8b004d81f4bee6de04d16, type: 3}
     weaponModel: {fileID: 7024797414522412946, guid: 4d139889c3ecd794b86dea9d84e0ceaf, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 0f19524f3faee2e47bdaf1eb511bebaa, type: 3}
   - characterName: "T\xEDo"
     characterModel: {fileID: 3557882330859158532, guid: 4f3e7ae5e5f8f1847b201b7107d402d7, type: 3}
     weaponModel: {fileID: 4552751603496274236, guid: 42fd8b3fa39b67f41bc606733793ddd1, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 79380ff11ebc2084ab9f1197ad17ee6e, type: 3}
   - characterName: Abuela
     characterModel: {fileID: 3586466615612639647, guid: 1ac786f4518db994d81d8e2441413c91, type: 3}
     weaponModel: {fileID: 4447885114729932923, guid: d09bed0d7de572f44bc40208006f7568, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: b7200d6772ea87b4ea9e7394c43d3a79, type: 3}
   - characterName: Abuelo
     characterModel: {fileID: 7704181127025401232, guid: 1aa9c491ee31c2e48984dbc5481b9e5a, type: 3}
     weaponModel: {fileID: 9121719563189286355, guid: 936c2074e606b6f4d93b72c41d8e753f, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: d0196f35c74ceef4984032f01a949624, type: 3}
   - characterName: "T\xEDa"
     characterModel: {fileID: 3535875113547208630, guid: 2ac5e270567588e44b1bdd4a003c59c2, type: 3}
     weaponModel: {fileID: 7133849498071032612, guid: 38bac87ac08504a44b5e79e745bfdab5, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: aeb700e46651fbd4c89e9e0605701d9b, type: 3}
   - characterName: Prima
     characterModel: {fileID: 8629183758333509806, guid: 8652d503c2ba9af4a8b92f8fef8c68ba, type: 3}
     weaponModel: {fileID: 1564542205811173166, guid: 09fae3a5265fd32488673bc239f5d25b, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 6e9f9f7c2407c964f8ad3b99e759dc0a, type: 3}
   - characterName: Jesus
     characterModel: {fileID: 3419451026144114704, guid: 6b471f4fbd156d8478f6603b267e3348, type: 3}
     weaponModel: {fileID: 6362152784855217100, guid: 8408a62a7badb584b8994b099dd9c2ac, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: a79f3526b1cd8054abd8e486e87b63a6, type: 3}
   - characterName: Trump
     characterModel: {fileID: 4578512664605252933, guid: b091fefe0ab7f6b409bfeb43f5def65b, type: 3}
     weaponModel: {fileID: 7322575709465347546, guid: 5dc4381e2e98c0e44bd02d6a586471e2, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: b8349b87df7bfd84fa5b71f076e4f953, type: 3}
   displayPositionPlayer1: {fileID: 1983893668}
   nameTextPlayer1: {fileID: 348548415}
-  characterImagePlayer1: {fileID: 0}
+  characterImagePlayer1: {fileID: 536715975}
   charactersPlayer2:
   - characterName: "Pap\xE1"
     characterModel: {fileID: 2051826229467994462, guid: 4b38a6593eca7944086a4e0dfbde2d72, type: 3}
     weaponModel: {fileID: 3067624987049880221, guid: 67f80ac458226f44483bea6cac268f6b, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 7873242530831a040a0b8533c35eb314, type: 3}
   - characterName: "Mam\xE1"
     characterModel: {fileID: 97366296289709062, guid: b70e7f174eee804479d88e92f2778272, type: 3}
     weaponModel: {fileID: 2818525618612827475, guid: 1ae1553a199cb744f91f4147424897fe, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 5dfd6e1d3f55621409ef920ac1c8d967, type: 3}
   - characterName: Hijo
     characterModel: {fileID: 5564334016425058611, guid: c873c1344de8b004d81f4bee6de04d16, type: 3}
     weaponModel: {fileID: 7024797414522412946, guid: 4d139889c3ecd794b86dea9d84e0ceaf, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 0f19524f3faee2e47bdaf1eb511bebaa, type: 3}
   - characterName: "T\xEDo"
     characterModel: {fileID: 3557882330859158532, guid: 4f3e7ae5e5f8f1847b201b7107d402d7, type: 3}
     weaponModel: {fileID: 4552751603496274236, guid: 42fd8b3fa39b67f41bc606733793ddd1, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 79380ff11ebc2084ab9f1197ad17ee6e, type: 3}
   - characterName: Abuela
     characterModel: {fileID: 3586466615612639647, guid: 1ac786f4518db994d81d8e2441413c91, type: 3}
     weaponModel: {fileID: 4447885114729932923, guid: d09bed0d7de572f44bc40208006f7568, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: b7200d6772ea87b4ea9e7394c43d3a79, type: 3}
   - characterName: Abuelo
     characterModel: {fileID: 7704181127025401232, guid: 1aa9c491ee31c2e48984dbc5481b9e5a, type: 3}
     weaponModel: {fileID: 9121719563189286355, guid: 936c2074e606b6f4d93b72c41d8e753f, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: d0196f35c74ceef4984032f01a949624, type: 3}
   - characterName: "T\xEDa"
     characterModel: {fileID: 3535875113547208630, guid: 2ac5e270567588e44b1bdd4a003c59c2, type: 3}
     weaponModel: {fileID: 7133849498071032612, guid: 38bac87ac08504a44b5e79e745bfdab5, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: aeb700e46651fbd4c89e9e0605701d9b, type: 3}
   - characterName: Prima
     characterModel: {fileID: 8629183758333509806, guid: 8652d503c2ba9af4a8b92f8fef8c68ba, type: 3}
     weaponModel: {fileID: 1564542205811173166, guid: 09fae3a5265fd32488673bc239f5d25b, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: 6e9f9f7c2407c964f8ad3b99e759dc0a, type: 3}
   - characterName: Jesus
     characterModel: {fileID: 3419451026144114704, guid: 6b471f4fbd156d8478f6603b267e3348, type: 3}
     weaponModel: {fileID: 6362152784855217100, guid: 8408a62a7badb584b8994b099dd9c2ac, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: a79f3526b1cd8054abd8e486e87b63a6, type: 3}
   - characterName: Trump
     characterModel: {fileID: 4578512664605252933, guid: b091fefe0ab7f6b409bfeb43f5def65b, type: 3}
     weaponModel: {fileID: 7322575709465347546, guid: 5dc4381e2e98c0e44bd02d6a586471e2, type: 3}
-    characterImage: {fileID: 0}
+    characterImage: {fileID: 21300000, guid: b8349b87df7bfd84fa5b71f076e4f953, type: 3}
   displayPositionPlayer2: {fileID: 2017453470}
   nameTextPlayer2: {fileID: 889213358}
-  characterImagePlayer2: {fileID: 0}
+  characterImagePlayer2: {fileID: 1169398904}
 --- !u!4 &2095995919
 Transform:
   m_ObjectHideFlags: 0

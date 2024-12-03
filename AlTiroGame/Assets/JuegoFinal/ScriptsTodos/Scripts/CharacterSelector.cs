@@ -56,6 +56,7 @@ public class CharacterSelector : MonoBehaviour
         currentModelPlayer1 = Instantiate(character.characterModel, displayPositionPlayer1.position, Quaternion.identity);
         currentModelPlayer1.transform.rotation = Quaternion.Euler(0, 180, 0);
         nameTextPlayer1.text = character.characterName;
+        characterImagePlayer1.sprite = character.characterImage;
     }
 
     // Métodos para Player 2
@@ -83,6 +84,7 @@ public class CharacterSelector : MonoBehaviour
         currentModelPlayer2 = Instantiate(character.characterModel, displayPositionPlayer2.position, Quaternion.identity);
         currentModelPlayer2.transform.rotation = Quaternion.Euler(0, 0, 0);
         nameTextPlayer2.text = character.characterName;
+        characterImagePlayer2.sprite = character.characterImage;
     }
 
     // Confirmar selección y cambiar de escena
