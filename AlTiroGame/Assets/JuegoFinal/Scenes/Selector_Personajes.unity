@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1376,7 +1376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -73, y: -192}
+  m_AnchoredPosition: {x: -73, y: -167}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899701468
@@ -1432,7 +1432,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1928,7 +1928,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -3411,11 +3411,11 @@ MonoBehaviour:
   - characterName: "Pap\xE1"
     characterModel: {fileID: 2051826229467994462, guid: 4b38a6593eca7944086a4e0dfbde2d72, type: 3}
     weaponModel: {fileID: 3067624987049880221, guid: 67f80ac458226f44483bea6cac268f6b, type: 3}
-    characterImage: {fileID: 21300000, guid: 7873242530831a040a0b8533c35eb314, type: 3}
+    characterImage: {fileID: 21300000, guid: fd22045aaddccf842bd5ca5e93f2ba36, type: 3}
   - characterName: "Mam\xE1"
     characterModel: {fileID: 97366296289709062, guid: b70e7f174eee804479d88e92f2778272, type: 3}
     weaponModel: {fileID: 2818525618612827475, guid: 1ae1553a199cb744f91f4147424897fe, type: 3}
-    characterImage: {fileID: 21300000, guid: 5dfd6e1d3f55621409ef920ac1c8d967, type: 3}
+    characterImage: {fileID: 21300000, guid: ba19342638b6d8640b3215e4061a8d7f, type: 3}
   - characterName: Hijo
     characterModel: {fileID: 5564334016425058611, guid: c873c1344de8b004d81f4bee6de04d16, type: 3}
     weaponModel: {fileID: 7024797414522412946, guid: 4d139889c3ecd794b86dea9d84e0ceaf, type: 3}
@@ -3423,7 +3423,7 @@ MonoBehaviour:
   - characterName: "T\xEDo"
     characterModel: {fileID: 3557882330859158532, guid: 4f3e7ae5e5f8f1847b201b7107d402d7, type: 3}
     weaponModel: {fileID: 4552751603496274236, guid: 42fd8b3fa39b67f41bc606733793ddd1, type: 3}
-    characterImage: {fileID: 21300000, guid: 79380ff11ebc2084ab9f1197ad17ee6e, type: 3}
+    characterImage: {fileID: 21300000, guid: 506a093570ea56d44b3d4854315edccb, type: 3}
   - characterName: Abuela
     characterModel: {fileID: 3586466615612639647, guid: 1ac786f4518db994d81d8e2441413c91, type: 3}
     weaponModel: {fileID: 4447885114729932923, guid: d09bed0d7de572f44bc40208006f7568, type: 3}
@@ -3431,23 +3431,23 @@ MonoBehaviour:
   - characterName: Abuelo
     characterModel: {fileID: 7704181127025401232, guid: 1aa9c491ee31c2e48984dbc5481b9e5a, type: 3}
     weaponModel: {fileID: 9121719563189286355, guid: 936c2074e606b6f4d93b72c41d8e753f, type: 3}
-    characterImage: {fileID: 21300000, guid: d0196f35c74ceef4984032f01a949624, type: 3}
+    characterImage: {fileID: 21300000, guid: f9adbf8a9e86df3469edc72d07ea528a, type: 3}
   - characterName: "T\xEDa"
     characterModel: {fileID: 3535875113547208630, guid: 2ac5e270567588e44b1bdd4a003c59c2, type: 3}
     weaponModel: {fileID: 7133849498071032612, guid: 38bac87ac08504a44b5e79e745bfdab5, type: 3}
-    characterImage: {fileID: 21300000, guid: aeb700e46651fbd4c89e9e0605701d9b, type: 3}
+    characterImage: {fileID: 21300000, guid: c313e29546ff47048973a369e38a883a, type: 3}
   - characterName: Prima
     characterModel: {fileID: 8629183758333509806, guid: 8652d503c2ba9af4a8b92f8fef8c68ba, type: 3}
     weaponModel: {fileID: 1564542205811173166, guid: 09fae3a5265fd32488673bc239f5d25b, type: 3}
-    characterImage: {fileID: 21300000, guid: 6e9f9f7c2407c964f8ad3b99e759dc0a, type: 3}
+    characterImage: {fileID: 21300000, guid: ce56064b6abc6024db35d39767558df1, type: 3}
   - characterName: Jesus
     characterModel: {fileID: 3419451026144114704, guid: 6b471f4fbd156d8478f6603b267e3348, type: 3}
     weaponModel: {fileID: 6362152784855217100, guid: 8408a62a7badb584b8994b099dd9c2ac, type: 3}
-    characterImage: {fileID: 21300000, guid: a79f3526b1cd8054abd8e486e87b63a6, type: 3}
+    characterImage: {fileID: 21300000, guid: 577725ced02a681498a1111852dde95f, type: 3}
   - characterName: Trump
     characterModel: {fileID: 4578512664605252933, guid: b091fefe0ab7f6b409bfeb43f5def65b, type: 3}
     weaponModel: {fileID: 7322575709465347546, guid: 5dc4381e2e98c0e44bd02d6a586471e2, type: 3}
-    characterImage: {fileID: 21300000, guid: b8349b87df7bfd84fa5b71f076e4f953, type: 3}
+    characterImage: {fileID: 21300000, guid: a5ce0b50cba8a1142b81e88c67c8b9d7, type: 3}
   displayPositionPlayer1: {fileID: 1983893668}
   nameTextPlayer1: {fileID: 348548415}
   characterImagePlayer1: {fileID: 536715975}
@@ -3455,11 +3455,11 @@ MonoBehaviour:
   - characterName: "Pap\xE1"
     characterModel: {fileID: 2051826229467994462, guid: 4b38a6593eca7944086a4e0dfbde2d72, type: 3}
     weaponModel: {fileID: 3067624987049880221, guid: 67f80ac458226f44483bea6cac268f6b, type: 3}
-    characterImage: {fileID: 21300000, guid: 7873242530831a040a0b8533c35eb314, type: 3}
+    characterImage: {fileID: 21300000, guid: fd22045aaddccf842bd5ca5e93f2ba36, type: 3}
   - characterName: "Mam\xE1"
     characterModel: {fileID: 97366296289709062, guid: b70e7f174eee804479d88e92f2778272, type: 3}
     weaponModel: {fileID: 2818525618612827475, guid: 1ae1553a199cb744f91f4147424897fe, type: 3}
-    characterImage: {fileID: 21300000, guid: 5dfd6e1d3f55621409ef920ac1c8d967, type: 3}
+    characterImage: {fileID: 21300000, guid: ba19342638b6d8640b3215e4061a8d7f, type: 3}
   - characterName: Hijo
     characterModel: {fileID: 5564334016425058611, guid: c873c1344de8b004d81f4bee6de04d16, type: 3}
     weaponModel: {fileID: 7024797414522412946, guid: 4d139889c3ecd794b86dea9d84e0ceaf, type: 3}
@@ -3467,7 +3467,7 @@ MonoBehaviour:
   - characterName: "T\xEDo"
     characterModel: {fileID: 3557882330859158532, guid: 4f3e7ae5e5f8f1847b201b7107d402d7, type: 3}
     weaponModel: {fileID: 4552751603496274236, guid: 42fd8b3fa39b67f41bc606733793ddd1, type: 3}
-    characterImage: {fileID: 21300000, guid: 79380ff11ebc2084ab9f1197ad17ee6e, type: 3}
+    characterImage: {fileID: 21300000, guid: 506a093570ea56d44b3d4854315edccb, type: 3}
   - characterName: Abuela
     characterModel: {fileID: 3586466615612639647, guid: 1ac786f4518db994d81d8e2441413c91, type: 3}
     weaponModel: {fileID: 4447885114729932923, guid: d09bed0d7de572f44bc40208006f7568, type: 3}
@@ -3475,23 +3475,23 @@ MonoBehaviour:
   - characterName: Abuelo
     characterModel: {fileID: 7704181127025401232, guid: 1aa9c491ee31c2e48984dbc5481b9e5a, type: 3}
     weaponModel: {fileID: 9121719563189286355, guid: 936c2074e606b6f4d93b72c41d8e753f, type: 3}
-    characterImage: {fileID: 21300000, guid: d0196f35c74ceef4984032f01a949624, type: 3}
+    characterImage: {fileID: 21300000, guid: f9adbf8a9e86df3469edc72d07ea528a, type: 3}
   - characterName: "T\xEDa"
     characterModel: {fileID: 3535875113547208630, guid: 2ac5e270567588e44b1bdd4a003c59c2, type: 3}
     weaponModel: {fileID: 7133849498071032612, guid: 38bac87ac08504a44b5e79e745bfdab5, type: 3}
-    characterImage: {fileID: 21300000, guid: aeb700e46651fbd4c89e9e0605701d9b, type: 3}
+    characterImage: {fileID: 21300000, guid: c313e29546ff47048973a369e38a883a, type: 3}
   - characterName: Prima
     characterModel: {fileID: 8629183758333509806, guid: 8652d503c2ba9af4a8b92f8fef8c68ba, type: 3}
     weaponModel: {fileID: 1564542205811173166, guid: 09fae3a5265fd32488673bc239f5d25b, type: 3}
-    characterImage: {fileID: 21300000, guid: 6e9f9f7c2407c964f8ad3b99e759dc0a, type: 3}
+    characterImage: {fileID: 21300000, guid: ce56064b6abc6024db35d39767558df1, type: 3}
   - characterName: Jesus
     characterModel: {fileID: 3419451026144114704, guid: 6b471f4fbd156d8478f6603b267e3348, type: 3}
     weaponModel: {fileID: 6362152784855217100, guid: 8408a62a7badb584b8994b099dd9c2ac, type: 3}
-    characterImage: {fileID: 21300000, guid: a79f3526b1cd8054abd8e486e87b63a6, type: 3}
+    characterImage: {fileID: 21300000, guid: 577725ced02a681498a1111852dde95f, type: 3}
   - characterName: Trump
     characterModel: {fileID: 4578512664605252933, guid: b091fefe0ab7f6b409bfeb43f5def65b, type: 3}
     weaponModel: {fileID: 7322575709465347546, guid: 5dc4381e2e98c0e44bd02d6a586471e2, type: 3}
-    characterImage: {fileID: 21300000, guid: b8349b87df7bfd84fa5b71f076e4f953, type: 3}
+    characterImage: {fileID: 21300000, guid: a5ce0b50cba8a1142b81e88c67c8b9d7, type: 3}
   displayPositionPlayer2: {fileID: 2017453470}
   nameTextPlayer2: {fileID: 889213358}
   characterImagePlayer2: {fileID: 1169398904}
