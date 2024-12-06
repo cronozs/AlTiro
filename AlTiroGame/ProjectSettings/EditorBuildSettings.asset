@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/JuegoFinal/Scenes/Marca.unity
+    guid: 5c4f6c40cbf0ffd48ac918a0d2b65878
+  - enabled: 1
     path: Assets/JuegoFinal/Scenes/Menu_Inicial.unity
     guid: 03cf035df12872a4ea787c8bcbe7e132
-  - enabled: 0
-    path: Assets/JuegoFinal/Scenes/LevelScene.unity
-    guid: 6f8e371a576b3e446804e045afed9aa3
   - enabled: 1
     path: Assets/JuegoFinal/Scenes/Selector_Personajes.unity
     guid: 96b2648e792307d48934250af3c20f7a
