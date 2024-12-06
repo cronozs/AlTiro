@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 780fe52e4ff4d3f4e9e9a7d4fb438bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 45
 --- !u!114 &3146639634854933552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,7 +283,7 @@ MonoBehaviour:
   EmptySpawn: {fileID: 4266825761765971478}
   PrefabArma: {fileID: 4552751603496274236, guid: 42fd8b3fa39b67f41bc606733793ddd1, type: 3}
   bulletSpeed: 50
-  timeBetweenPresses: 2
+  timeBetweenPresses: 1.5
   canShoot: 1
   dir: 0
 --- !u!114 &4280355540950237234
